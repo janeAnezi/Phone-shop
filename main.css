@@ -106,6 +106,59 @@ body {
 .background {position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0; transition: opacity 2s ease-in-out;}
 .container {position: relative; left: calc(50% - (1140px/2)); width: 50%; padding-block: 100px; max-width: 525px; height: 100%;}
 
+.slider-content-wrap{display: flex; flex-direction: column; justify-content: center; height: 100%;}
+.social-icons {display: flex; align-items: center; gap: 16px;}
+.social-icons a { border: 2px solid #fff; border-radius: 50%; width: 45px; height: 45px; display: inline-block; display: flex; justify-content: center; align-items: center;}
+.social-icons ion-icon { width: 22px; height: 22px; color: #fff;}
+
+.slider-images > img.next {
+    opacity: 1;
+    transition: 2s;
+    filter: blur(35px);
+    left: 100%;
+    top: 100%;
+    transform: translate(-50%, -50%) scale(0.3);
+}
+.slider-images > img.active {
+    opacity: 1;
+    transition: 2s;
+    filter: blur(0px);
+    left: 0;
+    top: 50%;
+    transform: scale(1);
+    transform: translateY(-50%);
+    z-index: 1;
+}
+.slider-images > img.previous {
+    opacity: 1;
+    transition: 2s;
+    filter: blur(25px);
+    left: 95%;
+    top: 90%;
+}
+.slider-images > img.inactive{
+    opacity: 0;
+    transition: 2s;
+    filter: blur(35px);
+    left: 100%;
+    top: 100%;
+    transform: translate(10%, 10%) scale(0.3);
+}
+.slider-images {position: relative; width: 50%; height: 100%; top: 0;}
+.slider-images > img {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    filter: blur(25%);
+    transform: translate(-50%, -50%) scale(0.3);
+    transition: opacity 3s;
+    object-fit: cover;
+    max-width: 593px;
+    max-height: 779px;
+    height: 100%;
+    min-height: 320px;
+}
+
 
 
 /* slider section ends */
