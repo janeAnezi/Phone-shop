@@ -396,9 +396,6 @@ a.footerlink-btn:hover {
     .footer-bottom {
         flex-direction: column;
     }
-    .footer-bottom div {
-        /* justify-content: flex-end; */
-    }
     .footer-bottom p {
         margin-bottom: 0.5em;
     }
