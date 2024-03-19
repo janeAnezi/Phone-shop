@@ -278,11 +278,13 @@ body {
     background: rgb(83, 214, 83);
 }
 /* product section starts */
+
 .product-title {
     text-align: center;
     padding: 1em 0;
     font-size: 35px;
     color: gray;
+    margin-top: 100px;
 }
 .product-link {
     margin-right: 3em;
@@ -326,13 +328,14 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 80px;
 }
 /* section sellers */
 .section-sellers {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 80px;
 }
 .sellers {
     display: flex;
@@ -359,6 +362,7 @@ body {
     justify-content: space-evenly;
     flex-wrap: wrap;
     width: 100%;
+    margin-bottom: 80px;
 }
 .product-list img {
     width: 100px;
