@@ -17,8 +17,8 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 0.5em 3em;
-    background-color: rgb(230, 227, 227);
-    color: gray;
+    background-color: #fb9f23;
+    color: #fff;
 }
 .header-bar__left {
     display: flex;
@@ -26,6 +26,12 @@ body {
 .bar-link {
     display: flex;
     margin: 0 0.5em;
+}
+.bar-link a {
+    cursor: pointer;
+}
+.bar-link a:hover{
+    color: #fde0bb;
 }
 .bar-icon {
     padding: 0 0.5em;
