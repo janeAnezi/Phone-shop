@@ -1,3 +1,8 @@
+function toggleMenu() {
+    var menuLinks = document.querySelector('#header-icon');
+    menuLinks.style.display = (menuLinks.style.display === 'block') ? 'none' : 'block';
+}
+
 window.onload = function() {
     const backgrounds = document.querySelectorAll('.background');
     const slider = document.querySelector('.slider-images');
