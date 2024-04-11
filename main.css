@@ -10,6 +10,7 @@ body {
     font-family: 'Gayathri', sans-serif;
     overflow-x: hidden;
     position: relative;
+    background: #f7efc4;
 }
 /* homepage top */
 .header-bar {
@@ -35,13 +36,19 @@ body {
 }
 .bar-icon {
     padding: 0 0.5em;
+    color: #f9eeb6;
 }
 .header-bar__right {
     display: flex;
 }
 .bar-link_right {
     display: flex;
-    margin: 0 0.8em;
+    margin: 0 0.8em; 
+}
+.bar-link_right select {
+    background: #fb9f23;
+    border: none;
+    color: #fff;
 }
 /* homepage top ends */
 /* lander **********still on the homepage */
@@ -81,14 +88,14 @@ body {
 /* links above the homepage image ie the headset image */
 .homepagelinks {
     position: sticky;
-    background-color: rgb(250, 245, 245);
+    background-color: #f8a94f;
 }
 .homepage-link {
     margin-left: 3em;
 }
 .homepage-link a {
     text-decoration: none;
-    color: gray;
+    color: #fff;
     padding: 1.3em;
     display: inline-block;
     font-size: 15px;

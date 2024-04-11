@@ -21,13 +21,13 @@
                     <a>Wishlist</a>
                 </div>
                 <div class="bar-link">
-                    <span class="material-symbols-outlined">
+                    <span class="material-symbols-outlined bar-icon">
                         shopping_cart
                         </span>
                     <a>My Cart</a>
                 </div>
                 <div class="bar-link">
-                    <span class="material-symbols-outlined">
+                    <span class="material-symbols-outlined bar-icon">
                         shopping_cart_checkout
                         </span>
                     <a>Check Out</a>
@@ -39,12 +39,22 @@
             </div>
             <div class="header-bar__right">
                 <div class="bar-link_right">
-                    <p>currency:USD</p>
-                    <ion-icon name="chevron-down" class="bar-icon"></ion-icon>
+                    <p>currency:
+                        <select name="currency" id="currency">
+                            <option value="dollar">USD</option>
+                            <option value="naira">NGN</option>
+                            <option value="euro">EUR</option>
+                        </select>
+                    </p>
                 </div>
                 <div class="bar-link_right">
-                    <p>language:English</p>
-                    <ion-icon name="chevron-down" class="bar-icon"></ion-icon>
+                    <p>language:
+                        <select name="lang" id="lang">
+                            <option value="eng">Eng</option>
+                            <option value="fren">FRE</option>
+                            <option value="chin">CHN</option>
+                        </select>
+                    </p>
                 </div>
             </div>
         </div>
