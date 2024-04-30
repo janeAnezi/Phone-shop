@@ -487,11 +487,12 @@ a.footerlink-btn:hover {
     padding: 0.5em;
     background: rgb(29, 28, 28);
     color: white;
+    
 }
 .footer-bottom p {
     margin-left: 2em;
     margin-bottom: 2.5em;
-    font-size: 18px;
+    font-size: 12px;
 }
 .footer-bottom span {
     color: rgb(51, 51, 184);
@@ -500,7 +501,7 @@ a.footerlink-btn:hover {
     margin-right: 2.5em;
 }
 .bottom-icon {
-    font-size: 25px;
+    font-size: 20px;
     padding: 0 0.2em;
     margin: 0 0.2em;
 }
@@ -578,5 +579,9 @@ a.footerlink-btn:hover {
     }
     .header-bar {
         font-size: 11px;
+    }
+    marquee .logos img{
+        height: 60px;
+        display: flex;
     }
 }
