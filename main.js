@@ -1,6 +1,16 @@
 function toggleMenu() {
     var menuLinks = document.querySelector('#header-icon');
     menuLinks.style.display = (menuLinks.style.display === 'block') ? 'none' : 'block';
+
+    const icon = document.querySelector('.icon');
+    
+    if (icon.classList.contains('fa-bars')) {
+        icon.classList.remove('fa-bars');
+        icon.classList.add('fa-times');
+    } else {
+        icon.classList.remove('fa-times');
+        icon.classList.add('fa-bars');
+    }
 }
 
 window.onload = function() {
