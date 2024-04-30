@@ -15,11 +15,13 @@ body {
 /* homepage top */
 .header-bar {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
-    padding: 0.5em 3em;
+    padding: 0.5em;
     background-color: #fb9f23;
     color: #fff;
+}
+.burger-div {
+    display: inline-block;
 }
 .header-bar__left {
     display: flex;
@@ -46,9 +48,11 @@ body {
     cursor: pointer;
 }
 @media only screen and (max-width: 600px) {
-
+    .header-bar {
+        flex: none;
+    }
     #burger {
-        display: block;
+        display: inline-block;
     }
     #header-icon {
         display: none;
