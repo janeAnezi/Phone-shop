@@ -327,6 +327,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 6px;
 }
 .homepage-label {
     /* padding: 1em; */
@@ -574,7 +575,7 @@ a.footerlink-btn:hover {
     .homepage-label {
         /* padding: 0.5em; */
         margin: 0.5em;
-        /* width: 40%; */
+         width: 100%; 
     }
     .products div {
         width: 29%;
