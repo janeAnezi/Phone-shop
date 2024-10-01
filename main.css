@@ -329,7 +329,7 @@ body {
     justify-content: center;
 }
 .homepage-label {
-    padding: 1em;
+    /* padding: 1em; */
     margin: 1em;
     text-align: center;
     font-size: 25px;
@@ -572,9 +572,9 @@ a.footerlink-btn:hover {
         display: none;
     } */
     .homepage-label {
-        padding: 0.5em;
+        /* padding: 0.5em; */
         margin: 0.5em;
-        width: 40%;
+        /* width: 40%; */
     }
     .products div {
         width: 29%;
