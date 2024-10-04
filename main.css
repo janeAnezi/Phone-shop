@@ -10,14 +10,14 @@ body {
     font-family: 'Gayathri', sans-serif;
     overflow-x: hidden;
     position: relative;
-    background: #f7efc4;
+    background: #3c2167;
 }
 /* homepage top */
 .header-bar {
     display: flex;
     justify-content: space-between;
     padding: 0.5em 3em;
-    background-color: #fb9f23;
+    background-color: #130130;;
     color: #fff;
 }
 .header-bar__left {
