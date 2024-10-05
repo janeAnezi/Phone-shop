@@ -115,8 +115,6 @@ body {
 .homepage-logo {
     display: flex;
     justify-content: space-between;
-    margin: 0.5em 1.5em;
-    font-size: 22px;
 }
 .homepage-logo img {
     padding-left: 1.5em;
@@ -124,7 +122,6 @@ body {
 .store-cart {
     display: flex;
     margin: 1.5em;
-    padding: 0.5em;
     border: 1px solid #3c2167;
     position: relative;
 }
