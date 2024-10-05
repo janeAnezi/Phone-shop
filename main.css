@@ -125,6 +125,10 @@ body {
     border: 1px solid #3c2167;
     position: relative;
 }
+.store-cart p {
+    padding: 0;
+    margin: 0;
+}
 .positioning-item {
     position: absolute;
     background: #3c2167;
