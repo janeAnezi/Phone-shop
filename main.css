@@ -127,7 +127,8 @@ body {
 }
 .store-cart p {
     padding: 0;
-    margin: 0;
+    margin: 0; 
+    margin-right: 0.5em;
 }
 .positioning-item {
     position: absolute;
@@ -135,12 +136,12 @@ body {
     color: white;
     top: -19px;
     right: -11px;
-    padding-top: 0.5em;
-    padding-left: 0.5em;
-    border-radius: 26px;
+    border-radius: 47%;
 }
-.store-cart p {
-    margin-right: 0.5em;
+.positioning-item p {
+    text-align: center;
+    padding: 4px 0 0 6px;
+    font-size: 14px;
 }
 .store-cart span {
     color: #3c2167;
