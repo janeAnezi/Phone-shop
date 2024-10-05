@@ -10,7 +10,6 @@ body {
     font-family: 'Gayathri', sans-serif;
     overflow-x: hidden;
     position: relative;
-    background: #3c2167;
 }
 /* homepage top */
 .header-bar {
@@ -126,12 +125,12 @@ body {
     display: flex;
     margin: 1.5em;
     padding: 0.5em;
-    border: 1px solid rgb(10, 10, 190);
+    border: 1px solid #3c2167;
     position: relative;
 }
 .positioning-item {
     position: absolute;
-    background: rgb(10, 10, 190);
+    background: #3c2167;
     color: white;
     top: -19px;
     right: -11px;
@@ -143,7 +142,7 @@ body {
     margin-right: 0.5em;
 }
 .store-cart span {
-    color: rgb(10, 10, 190);
+    color: #3c2167;
     font-weight: 600;
 }
 /* links above the homepage image ie the headset image */
@@ -156,15 +155,15 @@ body {
 }
 .homepage-link a {
     text-decoration: none;
-    color: #fff;
+    color: #3c2167;
     padding: 1.3em;
     display: inline-block;
     font-size: 15px;
     transition: all 0.5s ease;
 }
 .homepage-link a:hover {
-    background: rgb(50, 50, 110);
-    color: rgb(230, 227, 227);
+    background: #3c2167;
+    color: #fff;
 }
 .homepage-center {
     position: relative;
